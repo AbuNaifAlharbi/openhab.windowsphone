@@ -1,0 +1,30 @@
+﻿<Application 
+    x:Class="openHABWP7.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:nav="clr-namespace:System.Windows.Navigation;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <nav:UriMapper x:Key="UriMapper">
+            <nav:UriMapping Uri="/SelectServer" MappedUri="/Pages/ServerSelectionPage.xaml" />
+            <nav:UriMapping Uri="/AddServer" MappedUri="/Pages/AddServerPage.xaml" />
+            <nav:UriMapping Uri="/Selection" MappedUri="/Pages/SelectionPage.xaml" />
+            <nav:UriMapping Uri="/Settings" MappedUri="/Pages/SettingsPage.xaml" />
+            <nav:UriMapping Uri="/Image" MappedUri="/Pages/ShowImagePage.xaml" />
+            <nav:UriMapping Uri="/Sitemap" MappedUri="/Pages/SitemapPage.xaml" />
+            <nav:UriMapping Uri="/SelectSitemap" MappedUri="/Pages/SitemapSelectionPage.xaml" />
+            <nav:UriMapping Uri="/DeepLink/UpdateState" MappedUri="/Pages/UpdateFromMappingPage.xaml" />
+        </nav:UriMapper>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService 
+            Launching="Application_Launching" Closing="Application_Closing" 
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>

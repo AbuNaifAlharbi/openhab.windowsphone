@@ -1,0 +1,6 @@
+<MarketplaceDetails>
+  <SmallAppTile>icon99.png</SmallAppTile>
+  <LargeAppTile>icon173.png</LargeAppTile>
+  <PCAppTile>icon200.png</PCAppTile>
+  <ScreenShots>Startup.png;MainMenu.png;FirstFloor.png;Bedroom.png;GroupDemo.png;OutsideTemperature.png;rrdchart.png;WidgetOverview_0.png;</ScreenShots>
+</MarketplaceDetails>

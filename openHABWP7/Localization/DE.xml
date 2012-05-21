@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localization>
+  <String Id="AddServer">Neuer Server</String>
+  <String Id="AddServerServer">IP Addresse / DNS Name</String>
+  <String Id="AddServerPort">Port</String>
+  <String Id="AddServerRestPath">REST Pfad</String>
+  <String Id="AddServerCommand">Hinzufügen</String>
+
+  <String Id="ServerSelection">Server Auswahl</String>
+  <String Id="ServerSelectionSearching">Suche</String>
+  <String Id="ServerSelectionAddServer">Hinzufügen</String>
+  <String Id="ServerSelectionSettings">Einstellungen</String>
+
+  <String Id="Settings">Einstellungen</String>
+  <String Id="SettingsRefreshInterval">Update Intervall (ms)</String>
+  <String Id="SettingsDefaultServer">Standard Server</String>
+  <String Id="SettingsDefaultSitemap">Standard Sitemap</String>
+  <String Id="SettingsFontSize">Schriftgröße</String>
+  <String Id="SettingsSliderUpdateInterval">Slider Update Intervall (ms)</String>
+
+  <String Id="SitemapSelection">Sitemaps</String>
+
+  <String Id="UpdateMappingUpdate">Update</String>
+
+</Localization>
